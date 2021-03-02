@@ -174,7 +174,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     bottom: 10,
     left: 2,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
   },
   carouselIcon: {
     position: 'absolute',
@@ -188,20 +188,22 @@ const styles = StyleSheet.create({
     borderTopRightRadius: 20,
     borderTopLeftRadius: 20,
     flexDirection: 'row',
-    justifyContent: 'space-around'
+    justifyContent: 'space-around',
+    padding: 4
   },
   movieTitle: {
     paddingLeft: 15,
     fontSize: 22,
     fontWeight: 'bold',
     color: '#131313',
-    marginBottom: 5
+    marginBottom: 5,
+    textAlign: 'center'
   },
   movieDesc: {
-    paddingLeft: 15,
+    paddingLeft: 12,
     color: '#131313',
     fontSize: 14,
     fontWeight: 'bold',
-    marginTop: 8
+    marginTop: 18
   }
 })
